@@ -57,7 +57,7 @@ header .hero-container{
     align-items: center;
     gap: 25px;
     position: absolute;
-    top: 60%;
+    top: 62%;
     transform: translateY(-60%);
 }
 
