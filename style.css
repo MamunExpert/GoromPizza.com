@@ -16,12 +16,23 @@
         .mtb-30{margin-top: 30px; margin-bottom: 30px;}
 
 
-        .sub-heading{
-            font-family: pizza regular, sens-serif;
-            text-align: center; color: rgb(73, 104, 255);
-            font-size: 18px; text-transform: uppercase; }
+        .section-heading .sub-heading{
+            font-family: pizza regular, sens-serif; 
+            text-align: center; color: #4968ff;
+            font-size: 18px; text-transform: uppercase;
+            margin-bottom: 10px; position: relative; }
 
-        .heading{
+        .section-heading .sub-heading::before {
+            content: '';
+            height: 3px;
+            width: 70px;
+            background: #FC9631;
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            bottom: -5px;}
+
+        .section-heading .heading{
             text-align: center;
             font-family: pizza bold, sens-serif;
             color: #FC9631; font-size: 35px;
@@ -31,8 +42,8 @@
 header{
     width: 100%;
     height: 100vh;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)),
-                      url('./assets/bg.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.857),rgba(0, 0, 0, 0.073),
+                 rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.436)), url('./assets/bg.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -181,9 +192,10 @@ header .hero-container{
             /* dishes section start */
             /* dishes section start */
 
-.menu-container{
+.pizza-container{
     background: rgb(255, 250, 245);
 }
+
 .dishes-container{
     display: flex;
     justify-content: center;
@@ -294,3 +306,52 @@ header .hero-container{
 { background: #4968ff; color: #fff; transition: .3s;}
 
             /* dishes section end */
+
+
+
+            /* menu section end */
+            /* menu section end */
+            /* menu section end */
+            
+.menu-container{
+    background-image: linear-gradient(to bottom right, 
+    rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.081),
+    rgba(0, 0, 0, 0.082), rgba(0, 0, 0, 1)), url(./assets/bg.jpg);
+}
+
+.menu-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.menu-wrapper .menu{
+    width: 350px;
+    height: auto;
+    border-radius: 10px;
+    background: #fff;
+    padding: 10px;
+    border: 6px solid #f1f1f1;
+    box-shadow: 0px 0px 02px #000;
+    position: relative;
+}
+
+.menu-wrapper .menu .image{
+    width: 320px;
+    height: 190px;
+    padding: 3px;
+    margin-bottom: 5px;
+    overflow: hidden;
+}
+
+.menu-wrapper .menu .image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    object-fit: cover;
+    object-position: center;
+}
