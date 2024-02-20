@@ -227,7 +227,7 @@ header .hero-container{
     object-position: center;
 }
 
-.dish .side-heart .fa-heart{
+.side-heart .fa-heart{
     position: absolute;
     right: 15px;
     top: 15px;
@@ -243,7 +243,7 @@ header .hero-container{
     transition: all .3s;
 }
 
-.dish .side-heart .fa-heart:hover{
+.side-heart .fa-heart:hover{
     background:rgb(73, 104, 255);
     transition: .3s all;
 }
@@ -355,3 +355,21 @@ header .hero-container{
     object-fit: cover;
     object-position: center;
 }
+
+.menu-wrapper .menu .image:hover{transform: scale(1.1);}
+
+#menu-heart .fa-heart{
+    right: 20px; top: 20px; font-size: 15px;
+    width: 25px; height: 25px; line-height: 25px;
+    background: rgba(255, 0, 0, 0.5);
+    color: rgba(255, 255, 255, 0.8);}
+
+#menu-heart .fa-heart:hover{ color: #FF003F; background:#fff;}
+
+#menu-discount p{
+    font-size: 13px; color: #f1f1f1; background: #FF003F;
+    font-family: pizza regular; font-weight: bold; 
+    letter-spacing: 1px; padding: 4px 8px;
+    position: absolute; left: 13px; top: 20px;}
+
+.menu-info .stars i{ color: #FF003F;}
