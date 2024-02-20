@@ -133,7 +133,7 @@ header .hero-container{
 }
 .hero-container .hero-content h2 span{
     text-transform: uppercase;
-    color: #FC9631;
+    color: #FEBE10;
 }
 
 .hero-container .hero-content h3{
@@ -178,10 +178,10 @@ header .hero-container{
     font-size: 20px;
     padding: 11px 25px;
     border-radius: 8px;
-    background-color: #FC9631;
+    background-color: #FEBE10;
     transition: all .5s;}
 
-.btn:hover{ background-color: #F8D02A; transition: .3s;}
+.btn:hover{ background-color: #FC9631; transition: .3s;}
     
 .hero-container .hero-image img{width: 100%;}
 
@@ -245,7 +245,7 @@ header .hero-container{
 }
 
 .side-heart .fa-heart:hover{
-    background:rgb(73, 104, 255);
+    background:#00308F;
     transition: .3s all;
 }
 
@@ -253,7 +253,7 @@ header .hero-container{
 
 .title{
     font-size: 24px;
-    color: rgb(73, 104, 255);
+    color: #00308F;
     text-transform: capitalize;
     text-align: center;
     font-family: pizza bold, sens-serif;
@@ -271,7 +271,7 @@ header .hero-container{
     gap: 8px; margin-top: 8px;}
 
 .price{ font-size: 18px; font-family: pizza regular; font-weight: bold;
-    color: rgb(73, 104, 255); margin-top: 10px; text-align: center;
+    color: #00308F; margin-top: 10px; text-align: center;
 }
 
 .price del{
@@ -298,13 +298,13 @@ header .hero-container{
 
 
 .order-btns .order-btn:hover
-    { background: #FC9631; color: #fff; transition: .3s;}
+    { background: #FEBE10; border: 3px solid #FEBE10; color: #fff; transition: .3s;}
 
 .order-btns .add-to-cart{           /* ATC button */
-    border: 3px solid #4968ff; color: #4968ff;}
+    border: 3px solid #00308f; color: #00308f;}
 
 .order-btns .add-to-cart:hover
-{ background: #4968ff; color: #fff; transition: .3s;}
+{ background: #4968ff; color: #fff; border: 3px solid #4968ff; transition: .3s;}
 
             /* dishes section end */
 
@@ -343,7 +343,7 @@ header .hero-container{
     width: 320px;
     height: 190px;
     margin: 3px;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
     overflow: hidden;
 }
 
