@@ -166,7 +166,7 @@ header .hero-container{
     transition: all .5s;
 }
 
-.hero-container .hero-image img:hover{
+.hero-container .hero-image:hover img{
     transform: scale(.98);     transition: all .3s; }
     
 .btn{               /* header order button */
@@ -226,7 +226,7 @@ header .hero-container{
     transition: .2s all;}
 
 .dishes-container .dish .image:hover img
-{transform: scale(1.03); transition: .3s all;}
+{transform: scale(1.03); transition: .3s all; filter: contrast(1.2);}
 
 .side-heart .fa-heart{
     position: absolute;
@@ -298,7 +298,7 @@ header .hero-container{
 
 
 .order-btns .order-btn:hover
-    { background: #FC9631; color: #fff; transition: .3s; }
+    { background: #FC9631; color: #fff; transition: .3s;}
 
 .order-btns .add-to-cart{           /* ATC button */
     border: 3px solid #4968ff; color: #4968ff;}
@@ -359,15 +359,15 @@ header .hero-container{
 }
 
 .menu-wrapper .menu .image:hover img
-{transform: scale(1.1); transition: .3s;  opacity: .9;}
+{transform: scale(1.1); transition: .3s; filter: contrast(1.2);}
 
 #menu-heart .fa-heart{
     right: 20px; top: 20px; font-size: 15px;
     width: 25px; height: 25px; line-height: 25px;
-    background: rgba(255, 0, 0, 0.5);
-    color: rgba(255, 255, 255, 0.8);}
+    background: #ffffff15;
+    color: #FF003F; transform: rotate(180deg);}
 
-#menu-heart .fa-heart:hover{ color: #FF003F; background:#fff;}
+#menu-heart .fa-heart:hover{ color: #fff; background:#FF003F; transform: rotate(360deg);}
 
 #menu-discount p{
     font-size: 13px; color: #f1f1f1; background: #FF003F;
