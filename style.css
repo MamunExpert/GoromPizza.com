@@ -341,7 +341,7 @@ header .hero-container{
 .menu-wrapper .menu .image{
     width: 320px;
     height: 190px;
-    padding: 3px;
+    margin: 3px;
     margin-bottom: 5px;
     overflow: hidden;
 }
@@ -354,9 +354,10 @@ header .hero-container{
     border-bottom-right-radius: 0;
     object-fit: cover;
     object-position: center;
+    transition: .2s all;
 }
 
-.menu-wrapper .menu .image:hover{transform: scale(1.1);}
+.menu-wrapper .menu .image:hover img{transform: scale(1.1); transition: .3s;}
 
 #menu-heart .fa-heart{
     right: 20px; top: 20px; font-size: 15px;
