@@ -183,8 +183,7 @@ header .hero-container{
 
 .btn:hover{ background-color: #F8D02A; transition: .3s;}
     
-.hero-container .hero-image img{
-    width: 100%;}
+.hero-container .hero-image img{width: 100%;}
 
 
 
@@ -193,8 +192,7 @@ header .hero-container{
             /* dishes section start */
 
 .pizza-container{
-    background: rgb(255, 250, 245);
-}
+    background: rgb(255, 250, 245);}
 
 .dishes-container{
     display: flex;
@@ -225,7 +223,10 @@ header .hero-container{
     width: 100%;
     object-fit: cover;
     object-position: center;
-}
+    transition: .2s all;}
+
+.dishes-container .dish .image:hover img
+{transform: scale(1.03); transition: .3s all;}
 
 .side-heart .fa-heart{
     position: absolute;
@@ -357,7 +358,8 @@ header .hero-container{
     transition: .2s all;
 }
 
-.menu-wrapper .menu .image:hover img{transform: scale(1.1); transition: .3s;}
+.menu-wrapper .menu .image:hover img
+{transform: scale(1.1); transition: .3s;  opacity: .9;}
 
 #menu-heart .fa-heart{
     right: 20px; top: 20px; font-size: 15px;
