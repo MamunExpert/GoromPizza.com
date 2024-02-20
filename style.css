@@ -186,7 +186,7 @@ header .hero-container{
 }
 .dishes-container{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     gap: 20px;
@@ -292,6 +292,4 @@ header .hero-container{
 .order-btns .add-to-cart:hover
 { background: #4968ff; color: #fff; transition: .3s;}
 
-            /* dishes section end */
-            /* dishes section end */
             /* dishes section end */
