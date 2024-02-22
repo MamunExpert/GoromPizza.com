@@ -368,9 +368,12 @@ header .hero-container{
     background: #ffffff15;
     color: #FF003F; transform: rotate(180deg);}
 
-#menu-heart .fa-heart:hover{ color: #fff; background:#FF003F; transform: rotate(360deg);}
+#menu-heart .fa-heart:hover{ 
+    color: #fff; background:#FF003F; 
+    transform: rotate(360deg);}
 
-.menu-tag .title{font-size: 22px; margin: 8px 0;}
+.menu-tag .title{
+    font-size: 22px; margin: 8px 0;}
 
 #menu-discount p{
     font-size: 13px; color: #f1f1f1; background: #FF003F;
