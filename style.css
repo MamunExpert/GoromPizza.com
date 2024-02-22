@@ -38,6 +38,9 @@
             color: #FC9631; font-size: 35px;
             text-transform: uppercase; margin-bottom: 20px; }
 
+        .brand-mark {color: #FEBE10;
+            text-transform: capitalize;}
+
 
 header{
     width: 100%;
@@ -107,7 +110,9 @@ header .nav-container{
 }
 
 .nav-container .user-profile a:hover
-{ transform: rotate(360deg); background-color: #FC9631; color: #fff; transition: .2s;}
+{   transform: rotate(360deg); 
+    background-color: #FC9631; 
+    color: #fff; transition: .2s;}
 
 header .hero-container{
     display: flex;
@@ -121,8 +126,7 @@ header .hero-container{
 
 .hero-container .hero-content{
     width: 300px;
-    margin: 0 auto;
-}
+    margin: 0 auto; }
 
 .hero-container .hero-content h2{
     font-family: pizza bold, sans-serif;
@@ -155,8 +159,7 @@ header .hero-container{
 }
 
 .hero-container .hero-image{
-    max-width: 680px;
-}
+    max-width: 680px;}
 
 .hero-container .hero-image img{
     width: 100%;
@@ -168,7 +171,7 @@ header .hero-container{
 
 .hero-container .hero-image:hover img{
     transform: scale(.98);     transition: all .3s; }
-    
+
 .btn{               /* header order button */
     font-family: pizza semi-bold, sans-serif;
     display: inline-block;
@@ -233,7 +236,7 @@ header .hero-container{
 .dishes-container .dish .image:hover img
 {transform: scale(1.03); transition: .3s all; filter: contrast(1.2);}
 
-.side-heart .fa-heart{
+.side-heart .fa-heart{        /* top-right side icon */
     position: absolute;
     right: 10px;
     top: 10px;
@@ -256,7 +259,7 @@ header .hero-container{
 
 .dish .dish-info{ padding: 0 5px 15px 5px;}
 
-.title{
+.title{                  /* dish name title*/
     font-size: 19px;
     color: #00308F;
     text-transform: capitalize;
@@ -264,14 +267,15 @@ header .hero-container{
     font-family: pizza semi-bold, sens-serif;
     margin-bottom: 5px; }
 
-.stars{display: flex; align-items: center; justify-content: center; 
-      text-align: center; grid: 1px;}
+                            /* review star*/
+.stars{display: flex; align-items: center;
+    justify-content: center; text-align: center; grid: 1px;}
 
 .stars i{
     width: 15px; height: 15px; line-height: 15px;
     font-size: 14px; color: #FC9631;}
 
-.price-btn{ 
+.price-btn{                  /* order now + add to cart btn*/
     display: flex; align-items: center; justify-content: center; 
     gap: 8px; margin-top: 8px;}
 
@@ -282,10 +286,9 @@ header .hero-container{
 .price del{
     color: rgb(121, 143, 255); font-size: 14px; margin-right: 5px; }
 
+.order-btns{display: flex; justify-content: center; 
+    align-items: center; gap: 5px; margin-top: 15px;}
 
-.order-btns{display: flex; justify-content: center; align-items: center;
-            gap: 5px; margin-top: 15px;}
-    
 .order-btns .order-btn,
 .order-btns .add-to-cart{               /* order button */
     font-family: pizza semi-bold, sans-serif;
@@ -315,9 +318,9 @@ header .hero-container{
 
 
 
-            /* menu section end */
-            /* menu section end */
-            /* menu section end */
+            /* menu section start */
+            /* menu section start */
+            /* menu section start */
             
 .menu-container{
     background-image: linear-gradient(to bottom right, 
@@ -400,3 +403,129 @@ header .hero-container{
     height: 15px;
     border-left: 3px solid #c4c4c4;
 }
+            /* menu section end */
+
+
+
+            /* footer section start */
+            /* footer section start */
+            /* footer section start */
+
+.footer-container{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5), 
+                    rgba(0, 0, 0, 0.7)), url(./assets/bg.jpg);  
+    background-attachment: fixed; }
+
+
+                    /** == newsletter == **/
+
+.footer-container .newsletter{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+
+.newsletter .left-col h2{
+    font-family: pizza semi-bold;
+    text-transform: capitalize;
+    font-size: 28px;
+    color: #fff;
+}
+
+.newsletter .right-col{
+    display: flex;
+    justify-content: center;
+    align-items: center;}
+
+.newsletter .right-col input{
+    width: 330px;
+    height: 45px;
+    border: 2px solid #fff;
+    color: #00308f;
+    border-right: 0;
+    border-radius: 6px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    padding: 15px; transition: .3s; }
+
+.newsletter .right-col input:focus{
+    outline: none; transition: .2s;
+}
+
+.newsletter .right-col input:nth-child(2){
+    width: 150px;
+    height: 45px;
+    font-family: pizza semi-bold;
+    font-size: 16px;
+    text-transform: uppercase;
+    background: #FEBE10;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 6px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border: none; cursor: pointer;
+    transition: .3s; }
+
+.newsletter .right-col input:nth-child(2):hover
+{ background:#FC9631;   color: #fff; }
+
+             /** == main footer == **/
+
+.main-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+    padding-top: 40px;
+}
+
+.main-footer .footer-col{ width: 20%; }
+.main-footer .about-col{  width: 30%; }
+
+.footer-col ul{
+    list-style-type: none;
+}
+
+.footer-col h2{
+    font-family: pizza semi-bold;
+    font-size: 20px;
+    color: #fff;
+    text-transform: capitalize;
+    margin-bottom: 8px;
+    position: relative;
+}
+
+.footer-col h2::before{
+    content: '';
+    width: 40px;
+    height: 3px;
+    background: #FEBE10;
+    position: absolute;
+    bottom: -3px;
+}
+
+.footer-col ul a{
+    font-family: pizza regular;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 14px;
+    color: #ffffff97;
+    padding: 8px 0;
+    transition: .3s;
+}
+
+.footer-col ul a:hover{
+    color: #fff;
+    padding-left: 10px;
+    transition: .2s; }
+
+.about-col .brand-mark{font-size: 22px;}
+
+.main-footer .about-col p{
+    font-family: pizza regular;
+    font-size: 12px;
+    text-align: justify;
+    color: #fff; 
+margin-top: 10px;}
