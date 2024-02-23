@@ -254,6 +254,7 @@ header .hero-container {
   border-radius: 8px;
   background-color: #febe10;
   transition: all 0.5s;
+  margin-top:5px;
 }
 
 .btn:hover {
