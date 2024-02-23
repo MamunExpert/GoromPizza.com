@@ -40,6 +40,20 @@
   margin-bottom: 30px;
 }
 
+
+/* scrollar design ============== */
+::-webkit-scrollbar { width: 10px;  }
+  
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 2px #FEBE10; 
+    border-radius: 20px; }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #FEBE10;   
+    border-radius: 20px; }
+
+
+/* all section heading ============== */
 .section-heading .sub-heading {
   font-family: pizza regular, sens-serif;
   text-align: center;
@@ -61,6 +75,7 @@
   bottom: -5px;
 }
 
+/* all section sub heading ============== */
 .section-heading .heading {
   text-align: center;
   font-family: pizza bold, sens-serif;
@@ -70,10 +85,17 @@
   margin-bottom: 20px;
 }
 
+/* special span tag color ============== */
 .brand-mark {
   color: #febe10;
   text-transform: capitalize;
 }
+
+
+
+            /*** ==header section start== ***/
+            /*** ==header section start== ***/
+            /*** ==header section start== ***/
 
 header {
   width: 100%;
@@ -556,7 +578,7 @@ header .hero-container {
 }
 
 .testimonial-container .section-heading{
-    margin-bottom: 45px; }
+    margin-bottom: 50px; }
 
 .testimonial-container .box-wrapper {
   display: flex;
@@ -645,8 +667,76 @@ header .hero-container {
 /* testimonial section start */
 
 
+/* order section start */
+/* order section start */
+/* order section start */
+
+.orderForm-container{
+    /* background:linear-gradient(
+        rgba(0, 0, 0, 0),
+        rgba(255, 250, 245, 1) ), url(./assets/bg.jpg); */
+        background:linear-gradient(to top right,#FFFAF5,#4968ff)
+}
+
+.orderForm-wrapper{
+    max-width: 600px;
+    margin: 0 auto;
+    background:#fff;
+    padding:20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+    border-radius: 6px;}
+
+.orderForm-wrapper .form-container form{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.form-container form input,
+.form-container form textarea{
+    font-family: pizza regular;
+    width: 100%;
+    height: 38px;
+    margin-top: 10px;
+    color: #fff;
+    padding: 5px 5px 5px 20px;
+    outline: none;
+    border: none;
+    background-color: #4968ff;
+    /* border: 2px solid #dddddd; */
+    border-radius: 4px;
+}
+
+.form-container form .half-width{
+    width: 49%; }
+
+.form-container form input::placeholder{
+    color: #EEEEEE;}
 
 
+         /** submit button**/
+.form-container form input:nth-child(8){
+    height: 45px;
+    font-family: pizza bold;
+    padding: 5px 10px;
+    font-size: 20px;
+    background: #fc9631;
+    color: #fff;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.form-container form textarea{
+    background: none;
+    border: 2px solid #4968ff;
+    resize: none;
+    height: 100px;
+    color: #00308f;
+    padding: 15px 15px 15px 20px;
+}
+.form-container form textarea::placeholder{
+    color: #4968ff;}
 
 
 /* footer section start */
@@ -655,12 +745,9 @@ header .hero-container {
 
 .footer-container {
   background-image: linear-gradient(
-      rgba(0, 0, 0, 0.7),
-      rgba(0, 0, 0, 0.281),
-      rgba(0, 0, 0, 0.7)
-    ),
-    url(./assets/bg.jpg);
-  background-attachment: fixed;
+      rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.281),
+      rgba(0, 0, 0, 0.7) ), url(./assets/bg.jpg);
+      background-attachment: fixed;
 }
 
 /** == newsletter == **/
@@ -823,5 +910,4 @@ header .hero-container {
 
 .social-handles a:hover {
   color: #fff;
-  transition: 0.2s;
-}
+  transition: 0.2s; }
