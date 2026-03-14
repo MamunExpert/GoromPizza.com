@@ -2,9 +2,7 @@
 
 **Complete Pizza Restaurant Landing Page** designed with **only HTML & CSS**
 
-<h2> Live Demo
-👉 **[View Live Website](https://mamunexpert.github.io/GoromPizza.com/)**
-</h2>
+Live Demo 👉 [View Live Website](https://mamunexpert.github.io/GoromPizza.com/)
 ---
 
 ## 📌 About the Project
